@@ -1,0 +1,64 @@
+/* footer style */
+footer.site-footer,.site-footer{
+	width : 100%;
+	margin :0;
+	padding : 15px;
+	text-align : left;
+	background-color: $black1;
+	color : $cream;
+	font-size : 90%;
+	.site-designer{
+		float : right;
+		font-size : 90%;
+	}
+	a{
+		color : $red2;
+		&:hover{
+			color : $red2;
+		}
+	}
+	
+}
+.products-area{
+	border-top : 3px solid $red2;
+	background:  image_url("background/pattern2.jpg") top left repeat ,$grey3;
+	padding-top : 25px;
+	.products-widget-col{
+		@include span-columns(12,12);
+		@include at-breakpoint($medium){
+			@include span-columns(3,12);
+			&:nth-of-type(4n){
+				@include span-columns(3 omega,12);
+
+			}
+		}
+		.widget{
+			width : 100%;
+			background-color: $glassyCream2;
+			color : $black1;
+		}
+	}
+	
+}
+.contact-area{
+	padding-top : 25px;
+	background-color: $cream;
+	.widget.footer-second{
+		
+		@include span-columns(12,12);
+		@include at-breakpoint($medium){
+			@include span-columns(4,12);
+			&:nth-of-type(3n){
+				@include span-columns(4 omega,12);
+
+			}
+		}
+	}
+	.widget{
+		width : 100%;
+		background-color: $glassyWhite;
+		color : $black1;
+	}
+}
+
+
