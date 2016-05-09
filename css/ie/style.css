@@ -690,7 +690,7 @@ p {
 /*------ colors -----------*/
 /*----------------transition-shadow----------------------*/
 /* line 96, ../sass/base/_variables.scss */
-.def-transition, .bottom-tooltip, a, .hero .logo-wrapper a.menu-toggler, .hero a.search-toggler, input[type=submit], button {
+.def-transition, .bottom-tooltip, a, .hero .logo-wrapper a.menu-toggler, .hero a.search-toggler, .follow-links ul li i, .follow-links ul li i:before, input[type=submit], button {
   -moz-transition: all 0.4s ease-in-out 0s;
   -o-transition: all 0.4s ease-in-out 0s;
   -webkit-transition: all 0.4s ease-in-out;
@@ -2443,6 +2443,51 @@ footer.site-footer, .site-footer {
     width: 100%;
     background-color: #ffffff;
     color: #111; }
+
+/* line 64, ../sass/layout/_footer.scss */
+.follow-links {
+  text-align: center;
+  background-color: #333336;
+  overflow: hidden;
+  color: #E6E1DB; }
+  /* line 69, ../sass/layout/_footer.scss */
+  .follow-links h3.follow-title {
+    text-align: center;
+    color: #E6E1DB; }
+  /* line 73, ../sass/layout/_footer.scss */
+  .follow-links ul {
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 0px;
+    text-align: center;
+    display: block;
+    width: 100%; }
+    /* line 80, ../sass/layout/_footer.scss */
+    .follow-links ul li {
+      display: inline-block; }
+      /* line 84, ../sass/layout/_footer.scss */
+      .follow-links ul li i:before {
+        padding: 7px 9px;
+        margin: 5px;
+        -moz-border-radius: 30px;
+        -webkit-border-radius: 30px;
+        border-radius: 30px;
+        color: #E6E1DB;
+        background-color: #FF585B;
+        font-size: 130%; }
+      /* line 94, ../sass/layout/_footer.scss */
+      .follow-links ul li i.fa-pinterest-p:before {
+        padding: 7px 11px; }
+      /* line 97, ../sass/layout/_footer.scss */
+      .follow-links ul li i.fa-facebook:before {
+        padding: 7px 13px; }
+      /* line 102, ../sass/layout/_footer.scss */
+      .follow-links ul li:hover i {
+        transform: translateY(-4px); }
+        /* line 103, ../sass/layout/_footer.scss */
+        .follow-links ul li:hover i:before {
+          color: #FFFFFF;
+          background-color: #FF3300; }
 
 /* button style */
 /* line 2, ../sass/modules/_btn.scss */

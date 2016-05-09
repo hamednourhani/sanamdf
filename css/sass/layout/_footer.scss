@@ -61,4 +61,54 @@ footer.site-footer,.site-footer{
 	}
 }
 
+.follow-links{
+	text-align: center;
+	background-color: $grey3;
+	overflow: hidden;
+	color : $cream;
+	h3.follow-title{
+		text-align: center;
+		color : $cream;
+	}
+	ul{
+		margin : 0px;
+		margin-bottom : 30px;
+		padding : 0px;
+		text-align: center;
+		display: block;
+		width : 100%;
+		li{
+			display : inline-block;
+			i{
+				@extend .def-transition;
+				&:before {
 
+					@extend .def-transition;
+					padding: 7px 9px;
+					margin: 5px;
+					@include border-radius(30px);
+					color: $cream;
+					background-color: $gol;
+					font-size: 130%;
+				}
+				&.fa-pinterest-p:before{
+					padding : 7px 11px;
+				}
+				&.fa-facebook:before{
+					padding : 7px 13px;
+				}
+			}
+			&:hover{
+				i{
+					&:before {
+
+						color: $white;
+						background-color: $red;
+					}
+					transform : translateY(-4px);
+				}
+			}
+
+		}
+	}
+}
