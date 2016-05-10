@@ -38,7 +38,8 @@
 	 
 }
 .hero{
-	background :  image_url("background/tex8.jpg") top left repeat ,$grey3;
+	//background :  image_url("background/tex8.jpg") top left repeat ,$grey3;
+	background-color: $grey3;
 	border-bottom : 4px solid $red;
 	color : $white;
 	position: relative;
