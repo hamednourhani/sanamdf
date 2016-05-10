@@ -46,7 +46,7 @@ div#responsive-wrapper{
 a{
 	@extend .def-transition;
 	text-decoration : none;
-	color : darken($brown,20%);
+	color : darken($brown,10%);
 	&:hover{
 		color : $red;
 	}
