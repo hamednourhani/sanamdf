@@ -137,6 +137,7 @@
 		left : 0px;
 		top : 104%;
 		overflow: hidden;
+		z-index: 99;
 		input{
 			float : left;
 			@include single-transition(all, 0.8s, ease-in-out);

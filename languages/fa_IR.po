@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wordpress theme\n"
-"POT-Creation-Date: 2016-05-08 09:01+0430\n"
-"PO-Revision-Date: 2016-05-08 09:26+0430\n"
+"POT-Creation-Date: 2016-05-16 10:54+0430\n"
+"PO-Revision-Date: 2016-05-16 10:54+0430\n"
 "Last-Translator: \n"
 "Language-Team: iTstar <itstar@gmail.com>\n"
 "Language: fa\n"
@@ -50,15 +50,19 @@ msgstr "دیدگاه های جدید تر"
 msgid "Comments are closed."
 msgstr "دیدگاه ها بسته است."
 
-#: footer.php:13
+#: footer.php:11
+msgid "Follow US "
+msgstr "ما را دنبال کنید !"
+
+#: footer.php:44
 msgid "Sana © 2016. All rights reserved."
 msgstr "سنا چوب © 2016 . تمامی حقوق محفوظ می باشد."
 
-#: footer.php:16
+#: footer.php:47
 msgid "Designed "
 msgstr "طراحی سایت "
 
-#: footer.php:17
+#: footer.php:48
 msgid "By Farakaranet "
 msgstr "توسط فراکارانت"
 
@@ -485,15 +489,11 @@ msgstr "جستجو برای "
 msgid " -- Only registered Users can Download the Catalog -- "
 msgstr "-- تنها کاربران عضو می توانند کاتالوگ را دانلود نمایند --"
 
-#: header.php:82
-msgid "the customer is always right"
-msgstr "همیشه حق با مشتری است "
-
-#: header.php:102 library/itstar.php:285
+#: header.php:100 library/itstar.php:285
 msgid "The Main Menu"
 msgstr "فهرست اصلی"
 
-#: header.php:121
+#: header.php:119
 msgid "Main Menu"
 msgstr "فهرست اصلی "
 
@@ -827,6 +827,9 @@ msgstr "جستجو "
 #: single-project.php:32
 msgid "Date "
 msgstr "تاریخ "
+
+#~ msgid "the customer is always right"
+#~ msgstr "همیشه حق با مشتری است "
 
 #~ msgid "Sana © 2015. All rights reserved."
 #~ msgstr "سنا چوب  © 2016"
