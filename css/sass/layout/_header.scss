@@ -70,6 +70,7 @@
 			}
 		}
 		a.menu-toggler{
+			//z-index: 9999;
 			@extend .def-transition;
 			display : inline-block;
 			position: absolute;
@@ -97,6 +98,7 @@
 
 	}
 	a.search-toggler {
+		//z-index: 9999;
 		@extend .def-transition;
 		display: inline-block;
 		position: absolute;
@@ -150,9 +152,9 @@
 			color : $black1;
 			background-color: $glassyWhite;
 			@include at-breakpoint($slarg) {
-				width : 130px;
+				width : 160px;
 				&:focus {
-					width: 170px;
+					width: 190px;
 				}
 			}
 		}
@@ -196,6 +198,7 @@ nav.main-menu{
 	z-index : 9998 !important;
 
 	//display: none;
+	
 	@include at-breakpoint($slarg){
 		@include span-columns(9 omega,12);
 		display : inline-block;
@@ -208,7 +211,7 @@ nav.main-menu{
 		@include at-breakpoint($slarg) {
 		  	display: none;
 		}
-		z-index : 9999;
+		z-index : 99999;
 		position : fixed;
 		left : -250px;
 		top : 0;
@@ -294,9 +297,11 @@ ul.main-nav{
 	margin : 0px;
 	font-size : 90%;
 	padding : 0;
-	 opacity : 0;
+	 //opacity : 0;
+	display: none;
+
 	 @include at-breakpoint($slarg){
-			opacity : 1; 
+		 display: block; 
 		}
 	a{
 		@include single-transition(all , 0.2s , ease-in-out);

@@ -137,7 +137,7 @@
 					</a>
 
 					<div class="menu-search-area" id="menuSearchArea">
-						<?php echo itstar_search_form(); ?>
+						<?php echo get_search_form(); ?>
 					</div>
 
 				</section>

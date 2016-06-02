@@ -99,7 +99,7 @@
           opacity: 0.9;
           &:hover{
             opacity:1;
-            transform: translateY(5px);
+            transform: translateY(-4px);
           }
           .image-wrapper {
             width: 100%;
@@ -129,10 +129,11 @@
     }
     .furniture-image-container{
       margin-bottom : -90px;
-      margin-top: -35px;
+
       img{
         max-width: 100%;
         height: auto;
+        margin-top: -34px;
       }
     }
   }
