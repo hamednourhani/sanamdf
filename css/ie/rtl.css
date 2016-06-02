@@ -722,6 +722,31 @@ footer.site-footer, .site-footer {
   margin-left: 0;
   margin-right: auto; }
 
+/* line 39, ../sass/rtl/layout/_footer.scss */
+.cretifies-container ul li {
+  width: 100%;
+  float: right;
+  margin-left: 1.69492%;
+  display: inline; }
+  /* line 39, ../sass/rtl/layout/_footer.scss */
+  .cretifies-container ul li {
+  width: 23.72881%;
+  float: right;
+  margin-left: 1.69492%;
+  margin-right: auto; }
+  /* line 46, ../sass/rtl/layout/_footer.scss */
+  .cretifies-container ul li:nth-of-type(4n) {
+    width: 100%;
+    float: right;
+    margin-left: 1.69492%;
+    display: inline; }
+    /* line 46, ../sass/rtl/layout/_footer.scss */
+    .cretifies-container ul li:nth-of-type(4n) {
+  width: 23.72881%;
+  float: left;
+  margin-left: 0;
+  margin-right: auto !important; }
+
 /* table style */
 /* line 1, ../sass/modules/_pagination.scss */
 nav.pagination {

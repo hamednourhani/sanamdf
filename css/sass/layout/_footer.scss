@@ -113,3 +113,37 @@ footer.site-footer,.site-footer{
 		}
 	}
 }
+.cretifies-container{
+	background-color: $grey3;
+	border-top : 1px dashed lighten($grey3,20%);
+	overflow: hidden;
+	ul{
+		margin : 0px;
+		padding : 0px;
+		li{
+			@include span-columns(12,12);
+			@include at-breakpoint($medium) {
+				@include span-columns(3, 12);
+			}
+			text-align: center;
+			img{
+				width:250px;
+				height : auto;
+				max-width : 100%;
+				padding : 40px 25px 25px;
+			}
+			&.narrow-certifie{
+				img{
+					margin-top : 30px;
+				}
+			}
+			&:nth-of-type(4n){
+				@include span-columns(12,12);
+				@include at-breakpoint($medium) {
+					@include span-columns(3 omega, 12);
+					margin-right : auto !important;
+				}
+			}
+		}
+	}
+}

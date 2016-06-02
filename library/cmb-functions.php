@@ -367,3 +367,118 @@ function itstar_register_page_banner_metabox() {
 	
 }
 
+/******************************************************************/
+/*--------------------first Page links -------------------------------*/
+/******************************************************************/
+
+add_action('cmb2_init','itstar_register_first_page_links_banner_metabox');
+// add_action('cmb2_init','itstar_register_tour_information_metabox');
+function itstar_register_first_page_links_banner_metabox() {
+
+	// Start with an underscore to hide fields from custom fields list
+	$prefix = '_itstar_';
+
+	/**
+	 * Sample metabox to demonstrate each field type included
+	 */
+	$cmb_demo = new_cmb2_box( array(
+			'id'            => $prefix . 'first_links',
+			'title'         => __( 'First Page links', 'itstar' ),
+			'object_types'  => array( 'page' ), // Post type
+
+	) );
+
+
+
+	$cmb_demo->add_field( array(
+			'name'       => __( 'Support', 'itstar' ),
+			'desc'       => __( 'Support Link', 'itstar' ),
+			'id'         => $prefix . 'support_link',
+			'type' => 'text_url',
+
+	) );
+
+	$cmb_demo->add_field( array(
+			'name'       => __( 'Agencies', 'itstar' ),
+			'desc'       => __( 'Agencies Link', 'itstar' ),
+			'id'         => $prefix . 'agencies_link',
+			'type' => 'text_url',
+
+	) );
+
+	$cmb_demo->add_field( array(
+			'name'       => __( 'Photo Gallery', 'itstar' ),
+			'desc'       => __( 'Photo Gallery Link', 'itstar' ),
+			'id'         => $prefix . 'photo_gallery_link',
+			'type' => 'text_url',
+
+	) );
+
+	$cmb_demo->add_field( array(
+			'name'       => __( 'News', 'itstar' ),
+			'desc'       => __( 'News Link', 'itstar' ),
+			'id'         => $prefix . 'news_link',
+			'type' => 'text_url',
+
+	) );
+
+
+
+
+
+}
+/*--------------------Page Banner -------------------------------*/
+/******************************************************************/
+
+add_action('cmb2_init','itstar_register_is_feature_page_metabox');
+// add_action('cmb2_init','itstar_register_tour_information_metabox');
+function itstar_register_is_feature_page_metabox()
+{
+
+	// Start with an underscore to hide fields from custom fields list
+	$prefix = '_itstar_';
+
+	/**
+	 * Sample metabox to demonstrate each field type included
+	 */
+	$cmb_demo = new_cmb2_box(array(
+			'id' => $prefix . 'feature_page',
+			'title' => __('Feature Page', 'itstar'),
+			'object_types' => array('page'), // Post type
+		// 'show_on_cb' => 'itstar_show_if_front_page', // function should return a bool value
+		// 'context'    => 'normal',
+		// 'priority'   => 'high',
+		// 'show_names' => true, // Show field names on the left
+		// 'cmb_styles' => false, // false to disable the CMB stylesheet
+		// 'closed'     => true, // true to keep the metabox closed by default
+	));
+
+
+	$cmb_demo->add_field(array(
+			'name' => __('Feature', 'itstar'),
+			'desc' => __('is this page a feature one?', 'itstar'),
+			'id' => $prefix . 'feature_page_radio',
+			'type' => 'radio_inline',
+			'show_option_none' => true,
+			'options' => array(
+					'yes' => __('Yes', 'itstar'),
+					'No' => __('no', 'itstar'),
+
+
+			),
+
+		//'show_on_cb' => 'itstar_hide_if_no_cats', // function should return a bool value
+		// 'sanitization_cb' => 'my_custom_sanitization', // custom sanitization callback parameter
+		// 'escape_cb'       => 'my_custom_escaping',  // custom escaping callback parameter
+		// 'on_front'        => false, // Optionally designate a field to wp-admin only
+		// 'repeatable'      => true,
+	));
+	$cmb_demo->add_field( array(
+			'name'       => __( 'Page Excerpt', 'itstar' ),
+			'desc'       => __( 'Page Excerpt', 'itstar' ),
+			'id'         => $prefix . 'page_excerpt',
+			'type' => 'textarea',
+
+	) );
+}
+

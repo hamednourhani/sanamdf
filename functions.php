@@ -85,6 +85,7 @@ add_image_size( 'banner', 1200, 500, array( 'center', 'center' ) );
 add_image_size( 'product-thumb', 30, 30, array( 'center', 'center' ) );
 add_image_size( 'detail-thumb', 53, 53, array( 'center', 'center' ) );
 add_image_size( 'project-thumb', 130, 130, array( 'center', 'center' ) );
+add_image_size( 'page-thumb', 300, 200, array( 'center', 'center' ) );
 
 add_filter( 'image_size_names_choose', 'itstar_custom_sizes' );
  
@@ -123,6 +124,7 @@ function itstar_custom_image_sizes( $sizes ) {
         'product-thumb' => __('30px by 30px'),
         'detail-thumb' => __('53px by 53px'),
         'project-thumb' => __('130px by 130px'),
+        'page-thumb' => __('300px by 200px'),
     ) );
 }
 

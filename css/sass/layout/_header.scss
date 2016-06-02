@@ -49,10 +49,12 @@
 		padding : 0px;
 
 		display: inline-block;
+		margin-top : 40px;
 		@include span-columns(12,12);
 		@include at-breakpoint($slarg){
 			@include span-columns(3,12);
 			padding-right:40px;
+			margin-top : 0px;
 		}
 		a.site-link{
 			display : inline-block;

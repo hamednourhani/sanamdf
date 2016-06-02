@@ -5,7 +5,8 @@
 	position : relative;
 }
 body{
-	max-width : 1400px;
+	//max-width : 1400px;
+	width : 100%;
 	background-color : $grey2;
 	margin : auto;
 
@@ -180,6 +181,13 @@ article,.hentry{
 	p{
 		margin : 5px;
 	}
+	ul{
+		li{
+			list-style: inside none disc;
+			list-style-position: inside;
+
+		}
+	}
 	.product-features,.project-features{
 		margin-top : 40px;
 		h4.feature-header{
@@ -204,7 +212,7 @@ article,.hentry{
 			width : 100%;
 		}
 		li{
-
+			list-style: none;
 			display : inline-block;
 			width : 100%;
 			padding : 0;
