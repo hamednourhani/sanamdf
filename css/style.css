@@ -2414,38 +2414,41 @@ div.panel-grid {
   padding: 0 10px;
   display: inline-block;
   width: 40%; }
+/* line 668, sass/layout/_main.scss */
+#commentform .form-allowed-tags {
+  display: none; }
 
 /*-----------------page templates correction ----------------*/
-/* line 674, sass/layout/_main.scss */
+/* line 676, sass/layout/_main.scss */
 .site-main.full-weight .banner-space {
   min-height: 0px; }
-/* line 677, sass/layout/_main.scss */
+/* line 679, sass/layout/_main.scss */
 .site-main.full-weight .primary {
   width: 100% !important;
   margin: 0px !important;
   padding: 0px !important; }
-  /* line 681, sass/layout/_main.scss */
+  /* line 683, sass/layout/_main.scss */
   .site-main.full-weight .primary article, .site-main.full-weight .primary .hentry {
     width: 100% !important;
     margin: 0px !important;
     padding: 0px !important; }
-/* line 687, sass/layout/_main.scss */
+/* line 689, sass/layout/_main.scss */
 .site-main.full-weight .secondary {
   display: none; }
-/* line 692, sass/layout/_main.scss */
+/* line 694, sass/layout/_main.scss */
 .site-main.without-sidebar .primary {
   width: 100%;
   float: left;
   margin-right: 1.53846%;
   display: inline; }
-  /* line 694, sass/layout/_main.scss */
+  /* line 696, sass/layout/_main.scss */
   .site-main.without-sidebar .primary article.hentry {
     overflow: hidden;
     width: 100%;
     float: left;
     margin-right: 1.53846%;
     display: inline; }
-/* line 699, sass/layout/_main.scss */
+/* line 701, sass/layout/_main.scss */
 .site-main.without-sidebar .secondary {
   display: none; }
 
@@ -2658,7 +2661,8 @@ input#s {
 .feature-pages {
   background-color: #333336;
   position: relative;
-  min-height: 280px; }
+  min-height: 280px;
+  direction: ltr; }
   /* line 6, sass/modules/_others.scss */
   .feature-pages #NextPageBtn, .feature-pages #PrevPageBtn {
     position: absolute;
@@ -2684,7 +2688,7 @@ input#s {
     left: 2%; }
   /* line 31, sass/modules/_others.scss */
   .feature-pages .feature-pages-wrapper {
-    margin-top: -25px;
+    margin-top: -22px;
     position: absolute;
     width: 97%; }
     /* line 36, sass/modules/_others.scss */
@@ -2702,90 +2706,91 @@ input#s {
         color: #FF3300;
         padding: 25px 15px 5px;
         font-size: 120%;
-        margin: 0px; }
-      /* line 57, sass/modules/_others.scss */
+        margin: 0px;
+        min-height: 80px; }
+      /* line 58, sass/modules/_others.scss */
       .feature-pages .feature-pages-wrapper .feature-pages-inner .page-grid span {
         color: #FFFFFF;
-        padding: 15px;
+        padding: 5px 15px 20px;
         font-size: 110%;
         display: block; }
-      /* line 63, sass/modules/_others.scss */
+      /* line 64, sass/modules/_others.scss */
       .feature-pages .feature-pages-wrapper .feature-pages-inner .page-grid .page-thumb-container {
         width: 100%; }
-        /* line 65, sass/modules/_others.scss */
+        /* line 66, sass/modules/_others.scss */
         .feature-pages .feature-pages-wrapper .feature-pages-inner .page-grid .page-thumb-container img {
           width: 100%;
           height: auto;
           margin-bottom: -8px; }
-      /* line 71, sass/modules/_others.scss */
+      /* line 72, sass/modules/_others.scss */
       .feature-pages .feature-pages-wrapper .feature-pages-inner .page-grid:hover {
         background-color: rgba(255, 51, 0, 0.8);
         border-top-color: #FFFFFF; }
-        /* line 74, sass/modules/_others.scss */
+        /* line 75, sass/modules/_others.scss */
         .feature-pages .feature-pages-wrapper .feature-pages-inner .page-grid:hover h3 {
           color: #FFFFFF; }
 
-/* line 84, sass/modules/_others.scss */
+/* line 85, sass/modules/_others.scss */
 .furniture-wrapper {
   background-color: #333336;
   text-align: center;
   padding-top: 90px; }
-  /* line 89, sass/modules/_others.scss */
+  /* line 90, sass/modules/_others.scss */
   .furniture-wrapper .furniture-inner ul {
     padding: 0px;
     margin: 0px; }
-    /* line 92, sass/modules/_others.scss */
+    /* line 93, sass/modules/_others.scss */
     .furniture-wrapper .furniture-inner ul li {
       width: 23.84615%;
       float: left;
       margin-right: 1.53846%;
       display: inline;
       text-align: center; }
-      /* line 95, sass/modules/_others.scss */
+      /* line 96, sass/modules/_others.scss */
       .furniture-wrapper .furniture-inner ul li a {
         display: block;
         text-align: center;
         color: #FF3300;
         opacity: 0.9; }
-        /* line 100, sass/modules/_others.scss */
+        /* line 101, sass/modules/_others.scss */
         .furniture-wrapper .furniture-inner ul li a:hover {
           opacity: 1;
           transform: translateY(-4px); }
-        /* line 104, sass/modules/_others.scss */
+        /* line 105, sass/modules/_others.scss */
         .furniture-wrapper .furniture-inner ul li a .image-wrapper {
           width: 100%; }
-          /* line 106, sass/modules/_others.scss */
+          /* line 107, sass/modules/_others.scss */
           .furniture-wrapper .furniture-inner ul li a .image-wrapper img {
             width: 90px;
             margin: auto;
             height: auto;
             max-width: 100%; }
-        /* line 113, sass/modules/_others.scss */
+        /* line 114, sass/modules/_others.scss */
         .furniture-wrapper .furniture-inner ul li a span {
           padding: 20px; }
-      /* line 117, sass/modules/_others.scss */
+      /* line 118, sass/modules/_others.scss */
       .furniture-wrapper .furniture-inner ul li:last-child {
         width: 23.84615%;
         float: right;
         margin-right: 0;
         *margin-left: -1em;
         display: inline; }
-        /* line 119, sass/modules/_others.scss */
+        /* line 120, sass/modules/_others.scss */
         .furniture-wrapper .furniture-inner ul li:last-child a {
           margin-top: 50px; }
-      /* line 124, sass/modules/_others.scss */
+      /* line 125, sass/modules/_others.scss */
       .furniture-wrapper .furniture-inner ul li:first-child a {
         margin-top: 50px; }
-  /* line 130, sass/modules/_others.scss */
+  /* line 131, sass/modules/_others.scss */
   .furniture-wrapper .furniture-inner .furniture-image-container {
     margin-bottom: -90px; }
-    /* line 133, sass/modules/_others.scss */
+    /* line 134, sass/modules/_others.scss */
     .furniture-wrapper .furniture-inner .furniture-image-container img {
       max-width: 100%;
       height: auto;
       margin-top: -34px; }
 
-/* line 142, sass/modules/_others.scss */
+/* line 143, sass/modules/_others.scss */
 .products-container {
   min-height: 100px;
   padding-top: 100px;

@@ -2,7 +2,7 @@
   background-color: $grey3;
   position: relative;
   min-height: 280px;
-
+  direction: ltr;
   #NextPageBtn,#PrevPageBtn{
     position: absolute;
     top : 120px;
@@ -29,7 +29,7 @@
     left : 2%;
   }
   .feature-pages-wrapper {
-    margin-top : -25px;
+    margin-top : -22px;
     position: absolute;
     width : 97%;
     .feature-pages-inner {
@@ -53,10 +53,11 @@
           padding: 25px 15px 5px;
           font-size: 120%;
           margin: 0px;
+          min-height: 80px;
         }
         span {
           color: $white;
-          padding: 15px;
+          padding: 5px 15px 20px;
           font-size: 110%;
           display: block;
         }

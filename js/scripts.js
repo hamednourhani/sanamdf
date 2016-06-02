@@ -94,9 +94,13 @@ jQuery(document).ready(function($){
 			margin:1,
 			responsiveClass: true,
 			nav: false,
-			loop: false,
+			loop: true,
 			mouseDrag: true,
 			touchDrag: true,
+			autoplayTimeout : 2000,
+			autoplay : true,
+			autoplayHoverPause : true,
+			autoplaySpeed : 1000,
 			responsive: {
 				0: {
 					items: 1,

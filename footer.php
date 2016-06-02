@@ -42,21 +42,23 @@
 			</div>
 
 		<div class="cretifies-container">
-			<ul>
-				<li>
-					<img src="<?php echo get_template_directory_uri();?>/images/certifies/tuv.png" alt="">
-				</li>
-			</ul>
-			<ul>
-				<li class="narrow-certifie">
-					<img src="<?php echo get_template_directory_uri();?>/images/certifies/iso.png" alt="">
-				</li>
-			</ul>
-			<ul>
-				<li >
-					<img src="<?php echo get_template_directory_uri();?>/images/certifies/rcbh.png" alt="">
-				</li>
-			</ul>
+			<section class="layout">
+				<ul>
+					<li>
+						<img src="<?php echo get_template_directory_uri();?>/images/certifies/tuv.png" alt="">
+					</li>
+				</ul>
+				<ul>
+					<li class="narrow-certifie">
+						<img src="<?php echo get_template_directory_uri();?>/images/certifies/iso.png" alt="">
+					</li>
+				</ul>
+				<ul>
+					<li >
+						<img src="<?php echo get_template_directory_uri();?>/images/certifies/rcbh.png" alt="">
+					</li>
+				</ul>
+			</section>
 		</div>
 
 			<footer class="site-footer">
