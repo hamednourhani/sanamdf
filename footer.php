@@ -13,9 +13,15 @@
 					<?php echo __('Follow US ','itstar');?>
 				</h3>
 				<ul>
+
 					<li>
 						<a href="#">
-							<i class="fa fa-google-plus" aria-hidden="true"></i>
+							<img class="follow-telegram" src="<?php echo get_template_directory_uri();?>/images/icons/telegram.png"/>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
 						</a>
 					</li>
 					<li>
@@ -25,17 +31,7 @@
 					</li>
 					<li>
 						<a href="#">
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<i class="fa fa-pinterest-p" aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
+							<img class="follow-aparat" src="<?php echo get_template_directory_uri();?>/images/icons/aparat-white.png"/>
 						</a>
 					</li>
 				</ul>

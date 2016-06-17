@@ -1,11 +1,11 @@
 /* fonts */
 @font-face {
   font-family: "Weblogma_Yekan";
-  src: url('../fonts/Yekan.eot?1462195112');
-  src: url('../fonts/Yekan.eot?&1462195112#iefix') format('embedded-opentype'), url('../fonts/Yekan.ttf?1462195112') format('truetype'), url('../fonts/Yekan.woff?1462195112') format('woff');
+  src: url('../fonts/Yekan.eot?1466144846');
+  src: url('../fonts/Yekan.eot?&1466144846#iefix') format('embedded-opentype'), url('../fonts/Yekan.ttf?1466144846') format('truetype'), url('../fonts/Yekan.woff?1466144846') format('woff');
   font-weight: "Yekan.svg"; }
 /* ------------susy-------- */
-/* line 14, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susyone/_grid.scss */
+/* line 14, ../../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.2/sass/susy/language/susyone/_grid.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -274,14 +274,17 @@ body {
     float: left;
     padding-left: 25px;
     padding-right: 1px; }
+  /* line 17, ../sass/rtl/layout/_header.scss */
+  .top-bar .header-follow-links {
+    float: right; }
 
-/* line 20, ../sass/rtl/layout/_header.scss */
+/* line 23, ../sass/rtl/layout/_header.scss */
 .hero .logo-wrapper {
   width: 100%;
   float: right;
   margin-left: 1.69492%;
   display: inline; }
-/* line 41, ../sass/rtl/layout/_header.scss */
+/* line 44, ../sass/rtl/layout/_header.scss */
 .hero .menu-search-area input {
   float: right; }
 
@@ -348,60 +351,60 @@ body {
   100% {
     filter: alpha(opacity=100);
     display: inline-block; } }
-/* line 78, ../sass/rtl/layout/_header.scss */
+/* line 81, ../sass/rtl/layout/_header.scss */
 nav.main-menu .responsive-menu {
   right: -250px;
   left: auto; }
-  /* line 81, ../sass/rtl/layout/_header.scss */
+  /* line 84, ../sass/rtl/layout/_header.scss */
   nav.main-menu .responsive-menu.show-menu {
     transform: translateX(-250px); }
-  /* line 84, ../sass/rtl/layout/_header.scss */
+  /* line 87, ../sass/rtl/layout/_header.scss */
   nav.main-menu .responsive-menu a.close-responsive {
     float: left; }
-  /* line 89, ../sass/rtl/layout/_header.scss */
+  /* line 92, ../sass/rtl/layout/_header.scss */
   nav.main-menu .responsive-menu ul.responsive-nav ul.sub-menu {
     margin-left: auto;
     margin-right: 30px;
     padding: 0px; }
-    /* line 94, ../sass/rtl/layout/_header.scss */
+    /* line 97, ../sass/rtl/layout/_header.scss */
     nav.main-menu .responsive-menu ul.responsive-nav ul.sub-menu a:before {
       right: -20px;
       left: auto;
       content: "\f177"; }
 
-/* line 107, ../sass/rtl/layout/_header.scss */
+/* line 110, ../sass/rtl/layout/_header.scss */
 ul.main-nav > li.menu-item-has-children > a:after {
   content: "\f0d7";
   padding-right: 5px;
   padding-left: 1px;
   left: 1px;
   right: auto; }
-/* line 116, ../sass/rtl/layout/_header.scss */
+/* line 119, ../sass/rtl/layout/_header.scss */
 ul.main-nav > li > ul.sub-menu, ul.main-nav li ul.sub-menu {
   right: -30%;
   left: auto; }
-  /* line 120, ../sass/rtl/layout/_header.scss */
+  /* line 123, ../sass/rtl/layout/_header.scss */
   ul.main-nav > li > ul.sub-menu li.menu-item-has-children > a:after, ul.main-nav li ul.sub-menu li.menu-item-has-children > a:after {
     content: "\f0d9";
     left: 12px;
     right: auto; }
-/* line 128, ../sass/rtl/layout/_header.scss */
+/* line 131, ../sass/rtl/layout/_header.scss */
 ul.main-nav > li > ul.sub-menu li ul {
   right: 100%;
   left: auto; }
-/* line 132, ../sass/rtl/layout/_header.scss */
+/* line 135, ../sass/rtl/layout/_header.scss */
 ul.main-nav ul.sub-menu li:hover ul {
   right: 100%;
   left: auto; }
-/* line 136, ../sass/rtl/layout/_header.scss */
+/* line 139, ../sass/rtl/layout/_header.scss */
 ul.main-nav li.item-home a:before {
   margin-left: 7px;
   margin-right: auto; }
-/* line 142, ../sass/rtl/layout/_header.scss */
+/* line 145, ../sass/rtl/layout/_header.scss */
 ul.main-nav > li.mega-menu > ul.sub-menu {
   right: -85%;
   left: auto; }
-/* line 146, ../sass/rtl/layout/_header.scss */
+/* line 149, ../sass/rtl/layout/_header.scss */
 ul.main-nav > li.mega-menu > .sub-menu-wrap > li {
   background: none;
   width: 23.72881%;
@@ -412,47 +415,47 @@ ul.main-nav > li.mega-menu > .sub-menu-wrap > li {
   border-right: 1px solid #E6E7E7;
   border-left: 0px;
   margin-right: auto; }
-  /* line 152, ../sass/rtl/layout/_header.scss */
+  /* line 155, ../sass/rtl/layout/_header.scss */
   ul.main-nav > li.mega-menu > .sub-menu-wrap > li:first-child {
     border: 0px; }
-  /* line 146, ../sass/rtl/layout/_header.scss */
+  /* line 149, ../sass/rtl/layout/_header.scss */
   ul.main-nav > li.mega-menu > .sub-menu-wrap > li {
   width: 15.25424%;
   float: right;
   margin-left: 1.69492%;
   width: 17%;
   margin-right: auto; }
-  /* line 161, ../sass/rtl/layout/_header.scss */
+  /* line 164, ../sass/rtl/layout/_header.scss */
   ul.main-nav > li.mega-menu > .sub-menu-wrap > li ul.sub-menu {
     right: auto;
     left: auto;
     top: auto; }
-  /* line 166, ../sass/rtl/layout/_header.scss */
+  /* line 169, ../sass/rtl/layout/_header.scss */
   ul.main-nav > li.mega-menu > .sub-menu-wrap > li.menu-item-has-children > a:after {
     content: ""; }
-/* line 172, ../sass/rtl/layout/_header.scss */
+/* line 175, ../sass/rtl/layout/_header.scss */
 ul.main-nav > li.mega-menu:hover > ul.sub-menu > .sub-menu-wrap > li > ul {
   display: inline-block;
   visibility: visible !important;
   filter: alpha(opacity=100) !important;
   animation: none !important;
   -webkit-animation: none !important; }
-/* line 179, ../sass/rtl/layout/_header.scss */
+/* line 182, ../sass/rtl/layout/_header.scss */
 ul.main-nav > li.mega-menu > ul.sub-menu > .sub-menu-wrap > li:hover > ul > li, ul.main-nav > li.mega-menu > ul.sub-menu > .sub-menu-wrap > li > ul > li {
   animation: none !important;
   -webkit-animation: none !important; }
-/* line 189, ../sass/rtl/layout/_header.scss */
+/* line 192, ../sass/rtl/layout/_header.scss */
 ul.main-nav .product-item img {
   margin-left: 5px;
   margin-right: auto; }
 
-/* line 198, ../sass/rtl/layout/_header.scss */
+/* line 201, ../sass/rtl/layout/_header.scss */
 li.mega-menu li.menu-item > a img {
   float: right;
   margin-lrft: 5px;
   margin-right: auto;
   vertical-align: -webkit-baseline-middle; }
-/* line 204, ../sass/rtl/layout/_header.scss */
+/* line 207, ../sass/rtl/layout/_header.scss */
 li.mega-menu li.menu-item > a {
   text-align: right; }
 
@@ -467,7 +470,7 @@ li.mega-menu li.menu-item > a {
   margin-left: auto;
   margin-right: auto;
   position: relative; }
-  /* line 38, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   .layout:after {
     content: "";
     display: table;
@@ -748,26 +751,10 @@ footer.site-footer, .site-footer {
   margin-right: auto !important; }
 
 /* table style */
-/* line 1, ../sass/modules/_pagination.scss */
-nav.pagination {
-  display: block;
-  padding: 20px 10px;
-  text-align: center;
-  overflow: hidden;
-  *zoom: 1; }
-  /* line 6, ../sass/modules/_pagination.scss */
-  nav.pagination a.page-numbers, nav.pagination span.page-numbers {
-    border: 3px solid #E6E7E7;
-    padding: 5px 10px;
-    background-color: #F8F8F8; }
-    /* line 10, ../sass/modules/_pagination.scss */
-    nav.pagination a.page-numbers:hover, nav.pagination span.page-numbers:hover {
-      background-color: #5C5C5C;
-      color: #F8F8F8; }
-    /* line 14, ../sass/modules/_pagination.scss */
-    nav.pagination a.page-numbers.current, nav.pagination span.page-numbers.current {
-      background-color: #FF3300;
-      color: #F8F8F8; }
-  /* line 19, ../sass/modules/_pagination.scss */
-  nav.pagination span.page-numbers {
-    padding: 5px 12px; }
+/* line 1, ../sass/rtl/modules/_slider.scss */
+.tp-bullets.preview1 {
+  direction: ltr; }
+
+/* line 4, ../sass/rtl/modules/_others.scss */
+.furniture-inner span {
+  font-size: 130%; }

@@ -22,7 +22,8 @@ footer.site-footer,.site-footer{
 }
 .products-area{
 	border-top : 3px solid $red2;
-	background:  image_url("background/pattern2.jpg") top left repeat ,$grey3;
+	background:  image_url("background/pattern15.jpg")center center no-repeat ,$grey3;
+	background-size: cover;
 	padding-top : 25px;
 	.products-widget-col{
 		@include span-columns(12,12);
@@ -82,9 +83,11 @@ footer.site-footer,.site-footer{
 			display : inline-block;
 			i{
 				@extend .def-transition;
+				transform : translateY(-12px);
 				&:before {
 
 					@extend .def-transition;
+
 					padding: 7px 9px;
 					margin: 5px;
 					@include border-radius(30px);
@@ -98,6 +101,23 @@ footer.site-footer,.site-footer{
 				&.fa-facebook:before{
 					padding : 7px 13px;
 				}
+				&.fa-instagram:before{
+					padding : 8px 10px;
+				}
+			}
+			img{
+				@extend .def-transition;
+				padding: 7px 9px;
+				//margin: 5px;
+				@include border-radius(30px);
+				color: $cream;
+				background-color: $gol;
+				&.follow-telegram{
+					padding : 10px 2px 10px 6px;
+				}
+				&.follow-aparat{
+					padding : 7px 7px;
+				}
 			}
 			&:hover{
 				i{
@@ -106,9 +126,15 @@ footer.site-footer,.site-footer{
 						color: $white;
 						background-color: $red;
 					}
+					transform : translateY(-16px);
+				}
+				img{
+
+					background-color: $red;
 					transform : translateY(-4px);
 				}
 			}
+
 
 		}
 	}

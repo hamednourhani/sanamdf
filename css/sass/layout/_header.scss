@@ -35,6 +35,27 @@
 		    
 		}
 	}
+	.header-follow-links{
+		float : left;
+		ul{
+
+				padding: 8px 5px 0px;
+				margin: 0px;
+			li{
+				display: inline-block;
+				color : $white;
+				i{
+					padding:{
+						right : 5px;
+						left : 5px;
+					}
+					color : $white;
+					font-size: 145%;
+					transform: translateY(-3px);
+				}
+			}
+		}
+	}
 	 
 }
 .hero{

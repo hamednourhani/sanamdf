@@ -92,7 +92,7 @@ get_header();
                                                         <img src="<?php echo get_template_directory_uri();?>/images/icons/news-icon.png" alt="">
                                                     </div>
                                                     <span>
-                                                        <?php echo __('Services & Articles','itstar');?>
+                                                        <?php echo __('Contact Us','itstar');?>
                                                     </span>
                                                 </a>
                                             </li>
@@ -102,7 +102,7 @@ get_header();
                                                         <img src="<?php echo get_template_directory_uri();?>/images/icons/heart-icon.png" alt="">
                                                     </div>
                                                     <span>
-                                                         <?php echo __('Photo Gallery','itstar');?>
+                                                         <?php echo __('Products','itstar');?>
                                                     </span>
                                                 </a>
                                             </li>
@@ -112,7 +112,7 @@ get_header();
                                                         <img src="<?php echo get_template_directory_uri();?>/images/icons/agencies-icon.png" alt="">
                                                     </div>
                                                     <span>
-                                                         <?php echo __('Agencies','itstar');?>
+                                                         <?php echo __('Cataloges','itstar');?>
                                                     </span>
                                                 </a>
                                             </li>
@@ -122,13 +122,13 @@ get_header();
                                                         <img src="<?php echo get_template_directory_uri();?>/images/icons/support-icon.png" alt="">
                                                     </div>
                                                     <span>
-                                                         <?php echo __('After Sales Services','itstar');?>
+                                                         <?php echo __('About 3mm','itstar');?>
                                                     </span>
                                                 </a>
                                             </li>
                                         </ul>
                                         <div class="furniture-image-container">
-                                            <img src="<?php echo get_template_directory_uri();?>/images/furniture.png" alt="">
+                                            <img src="<?php echo get_template_directory_uri();?>/images/3mm.png" alt="">
                                         </div>
                                     </div>
 

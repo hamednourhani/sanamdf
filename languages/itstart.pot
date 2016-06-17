@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sana Sabz 1.0\n"
 "Report-Msgid-Bugs-To: http://itstar.ir/contact-us\n"
-"POT-Creation-Date: 2016-06-02 09:08:25+00:00\n"
+"POT-Creation-Date: 2016-06-17 09:06:40+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,15 +45,15 @@ msgstr ""
 msgid "Follow US "
 msgstr ""
 
-#: footer.php:66
+#: footer.php:62
 msgid "Sana © 2016. All rights reserved."
 msgstr ""
 
-#: footer.php:69
+#: footer.php:65
 msgid "Designed "
 msgstr ""
 
-#: footer.php:70
+#: footer.php:66
 msgid "By Farakaranet "
 msgstr ""
 
@@ -486,11 +486,11 @@ msgstr ""
 msgid " -- Only registered Users can Download the Catalog -- "
 msgstr ""
 
-#: header.php:100 library/itstar.php:295
+#: header.php:125 library/itstar.php:295
 msgid "The Main Menu"
 msgstr ""
 
-#: header.php:119
+#: header.php:144
 msgid "Main Menu"
 msgstr ""
 
@@ -1046,36 +1046,36 @@ msgstr ""
 msgid "First Page links"
 msgstr ""
 
-#: library/cmb-functions.php:394
-msgid "Support"
+#: library/cmb-functions.php:394 page-templates/first-page.php:95
+msgid "Contact Us"
 msgstr ""
 
 #: library/cmb-functions.php:395
-msgid "Support Link"
+msgid "Contact Us Link"
 msgstr ""
 
-#: library/cmb-functions.php:402 page-templates/first-page.php:115
-msgid "Agencies"
+#: library/cmb-functions.php:402 page-templates/first-page.php:105
+msgid "Products"
 msgstr ""
 
 #: library/cmb-functions.php:403
-msgid "Agencies Link"
+msgid "Products Link"
 msgstr ""
 
-#: library/cmb-functions.php:410 page-templates/first-page.php:105
-msgid "Photo Gallery"
+#: library/cmb-functions.php:410 page-templates/first-page.php:115
+msgid "Cataloges"
 msgstr ""
 
 #: library/cmb-functions.php:411
-msgid "Photo Gallery Link"
+msgid "Cataloges Link"
 msgstr ""
 
-#: library/cmb-functions.php:418
-msgid "News"
+#: library/cmb-functions.php:418 page-templates/first-page.php:125
+msgid "About 3mm"
 msgstr ""
 
 #: library/cmb-functions.php:419
-msgid "News Link"
+msgid "About 3mm Link"
 msgstr ""
 
 #: library/cmb-functions.php:446
@@ -1282,14 +1282,6 @@ msgstr ""
 
 #: library/related-links.php:20
 msgid "related sites"
-msgstr ""
-
-#: page-templates/first-page.php:95
-msgid "Services & Articles"
-msgstr ""
-
-#: page-templates/first-page.php:125
-msgid "After Sales Services"
 msgstr ""
 
 #: searchform.php:6

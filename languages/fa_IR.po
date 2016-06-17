@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wordpress theme\n"
-"POT-Creation-Date: 2016-06-02 12:28+0430\n"
-"PO-Revision-Date: 2016-06-02 12:31+0430\n"
+"POT-Creation-Date: 2016-06-17 13:25+0430\n"
+"PO-Revision-Date: 2016-06-17 13:26+0430\n"
 "Last-Translator: \n"
 "Language-Team: iTstar <itstar@gmail.com>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.3\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -54,15 +54,15 @@ msgstr "دیدگاه ها بسته است."
 msgid "Follow US "
 msgstr "ما را دنبال کنید !"
 
-#: footer.php:64
+#: footer.php:62
 msgid "Sana © 2016. All rights reserved."
 msgstr "سنا چوب © 2016 . تمامی حقوق محفوظ می باشد."
 
-#: footer.php:67
+#: footer.php:65
 msgid "Designed "
 msgstr "طراحی سایت "
 
-#: footer.php:68
+#: footer.php:66
 msgid "By Farakaranet "
 msgstr "توسط فراکارانت"
 
@@ -286,31 +286,31 @@ msgstr "لینک های اجتماعی "
 
 #: functions.php:907
 msgid "Google Plus Url :"
-msgstr ""
+msgstr "لینک گوگل پلاس"
 
 #: functions.php:911
 msgid "Facebook Url :"
-msgstr ""
+msgstr "لینک فیسبوک"
 
 #: functions.php:915
 msgid "Linkedin Url :"
-msgstr ""
+msgstr "لینک لینکداین"
 
 #: functions.php:919
 msgid "Instagram Url :"
-msgstr ""
+msgstr "لینک اینستاگرام"
 
 #: functions.php:923
 msgid "Catalog Download url :"
-msgstr ""
+msgstr "لینک دانلود کاتالوگ"
 
 #: functions.php:927
 msgid "Send Email Url :"
-msgstr ""
+msgstr "لینک ارسال ایمیل "
 
 #: functions.php:931
 msgid "Login Url :"
-msgstr ""
+msgstr "لینک ورود به سایت"
 
 #: functions.php:1232
 msgid "Another user have been registered by this User Name or Email"
@@ -497,11 +497,11 @@ msgstr "جستجو..."
 msgid " -- Only registered Users can Download the Catalog -- "
 msgstr "-- تنها کاربران عضو می توانند کاتالوگ را دانلود نمایند --"
 
-#: header.php:100 library/itstar.php:295
+#: header.php:125 library/itstar.php:295
 msgid "The Main Menu"
 msgstr "فهرست اصلی"
 
-#: header.php:119
+#: header.php:144
 msgid "Main Menu"
 msgstr "فهرست اصلی "
 
@@ -638,37 +638,37 @@ msgstr "کد جایگذاری نقشه گوگل را وارد نمایید"
 msgid "First Page links"
 msgstr "لینک های صفحه اصلی"
 
-#: library/cmb-functions.php:394
-msgid "Support"
-msgstr "خدمات پس از فروش"
+#: library/cmb-functions.php:394 page-templates/first-page.php:95
+msgid "Contact Us"
+msgstr "تماس با ما"
 
 #: library/cmb-functions.php:395
-msgid "Support Link"
-msgstr "لینک خدمات پس از فروش"
+msgid "Contact Us Link"
+msgstr "لینک تماس با ما"
 
-#: library/cmb-functions.php:402 page-templates/first-page.php:115
-msgid "Agencies"
-msgstr "نمایندگی ها"
+#: library/cmb-functions.php:402 page-templates/first-page.php:105
+msgid "Products"
+msgstr "محصولات"
 
 #: library/cmb-functions.php:403
-msgid "Agencies Link"
-msgstr "لینک نمایندگی ها"
+msgid "Products Link"
+msgstr "لینک محصولات"
 
-#: library/cmb-functions.php:410 page-templates/first-page.php:105
-msgid "Photo Gallery"
-msgstr "گالری تصاویر"
+#: library/cmb-functions.php:410 page-templates/first-page.php:115
+msgid "Cataloges"
+msgstr "کاتالوگ ها"
 
 #: library/cmb-functions.php:411
-msgid "Photo Gallery Link"
-msgstr "لینک گالری تصاویر"
+msgid "Cataloges Link"
+msgstr "لینک کاتالوگ ها"
 
-#: library/cmb-functions.php:418
-msgid "News"
-msgstr "اخبار و مقالات"
+#: library/cmb-functions.php:418 page-templates/first-page.php:125
+msgid "About 3mm"
+msgstr "درباره 3میل"
 
 #: library/cmb-functions.php:419
-msgid "News Link"
-msgstr "لینک اخبار و مقالات"
+msgid "About 3mm Link"
+msgstr "لینک دباره 3 میل"
 
 #: library/cmb-functions.php:446
 msgid "Feature Page"
@@ -888,14 +888,6 @@ msgstr "برچسب ها : "
 msgid "related sites"
 msgstr "سایت های مرتبط "
 
-#: page-templates/first-page.php:95
-msgid "Services & Articles"
-msgstr "اخبار و مقالات"
-
-#: page-templates/first-page.php:125
-msgid "After Sales Services"
-msgstr "خدمات پس از فروش"
-
 #: searchform.php:6
 msgid "Search"
 msgstr "جستجو "
@@ -903,6 +895,36 @@ msgstr "جستجو "
 #: single-project.php:32
 msgid "Date "
 msgstr "تاریخ "
+
+#~ msgid "Support"
+#~ msgstr "خدمات پس از فروش"
+
+#~ msgid "Support Link"
+#~ msgstr "لینک خدمات پس از فروش"
+
+#~ msgid "Agencies"
+#~ msgstr "نمایندگی ها"
+
+#~ msgid "Agencies Link"
+#~ msgstr "لینک نمایندگی ها"
+
+#~ msgid "Photo Gallery"
+#~ msgstr "گالری تصاویر"
+
+#~ msgid "Photo Gallery Link"
+#~ msgstr "لینک گالری تصاویر"
+
+#~ msgid "News"
+#~ msgstr "اخبار و مقالات"
+
+#~ msgid "News Link"
+#~ msgstr "لینک اخبار و مقالات"
+
+#~ msgid "Services & Articles"
+#~ msgstr "اخبار و مقالات"
+
+#~ msgid "After Sales Services"
+#~ msgstr "خدمات پس از فروش"
 
 #~ msgid "the customer is always right"
 #~ msgstr "همیشه حق با مشتری است "

@@ -18,7 +18,7 @@
     }
     &:hover{
       i:before{
-        background-color: $glassyRed;
+        background-color: #FF3300;
       }
     }
   }
@@ -144,4 +144,12 @@
   min-height : 100px;
   padding-top : 100px;
   background-color: $grey1;
+}
+ul.products {
+  .product.type-product {
+    text-align: center !important;
+    a.button.product_type_simple{
+      display: none;
+    }
+  }
 }

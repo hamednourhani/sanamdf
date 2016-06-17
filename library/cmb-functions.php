@@ -391,32 +391,32 @@ function itstar_register_first_page_links_banner_metabox() {
 
 
 	$cmb_demo->add_field( array(
-			'name'       => __( 'Support', 'itstar' ),
-			'desc'       => __( 'Support Link', 'itstar' ),
+			'name'       => __( 'Contact Us', 'itstar' ),
+			'desc'       => __( 'Contact Us Link', 'itstar' ),
 			'id'         => $prefix . 'support_link',
 			'type' => 'text_url',
 
 	) );
 
 	$cmb_demo->add_field( array(
-			'name'       => __( 'Agencies', 'itstar' ),
-			'desc'       => __( 'Agencies Link', 'itstar' ),
+			'name'       => __( 'Products', 'itstar' ),
+			'desc'       => __( 'Products Link', 'itstar' ),
 			'id'         => $prefix . 'agencies_link',
 			'type' => 'text_url',
 
 	) );
 
 	$cmb_demo->add_field( array(
-			'name'       => __( 'Photo Gallery', 'itstar' ),
-			'desc'       => __( 'Photo Gallery Link', 'itstar' ),
+			'name'       => __( 'Cataloges', 'itstar' ),
+			'desc'       => __( 'Cataloges Link', 'itstar' ),
 			'id'         => $prefix . 'photo_gallery_link',
 			'type' => 'text_url',
 
 	) );
 
 	$cmb_demo->add_field( array(
-			'name'       => __( 'News', 'itstar' ),
-			'desc'       => __( 'News Link', 'itstar' ),
+			'name'       => __( 'About 3mm', 'itstar' ),
+			'desc'       => __( 'About 3mm Link', 'itstar' ),
 			'id'         => $prefix . 'news_link',
 			'type' => 'text_url',
 
