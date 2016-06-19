@@ -2,8 +2,8 @@
 /* fonts */
 @font-face {
   font-family: "open-sans";
-  src: url('fonts/OpenSans-Regular.eot?1466144846');
-  src: url('fonts/OpenSans-Regular.eot?&1466144846#iefix') format('embedded-opentype'), url('fonts/OpenSans-Regular.ttf?1466144846') format('truetype'), url('fonts/OpenSans-Regular.woff?1466144846') format('woff');
+  src: url('fonts/OpenSans-Regular.eot?1466338406');
+  src: url('fonts/OpenSans-Regular.eot?&1466338406#iefix') format('embedded-opentype'), url('fonts/OpenSans-Regular.ttf?1466338406') format('truetype'), url('fonts/OpenSans-Regular.woff?1466338406') format('woff');
   font-weight: "OpenSans-Regular.svg"; }
 /* normalize style */
 /* normalize-scss 3.0.2+normalize.3.0.2 | MIT/GPLv2 License | bit.ly/normalize-scss */
@@ -12,7 +12,7 @@
  * and $rhythm-unit variables. Also, correct text resizing oddly in IE 6/7 when
  * body `font-size` is set using `em` units.
  */
-/* line 106, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, e:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em; }
@@ -618,7 +618,7 @@ p {
   font-feature-settings: "liga", "dlig"; }
 
 /* ------------susy-------- */
-/* line 14, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.2/sass/susy/language/susyone/_grid.scss */
+/* line 14, e:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susyone/_grid.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1790,7 +1790,7 @@ li.mega-menu li.menu-item > a {
   margin-left: auto;
   margin-right: auto;
   position: relative; }
-  /* line 38, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, e:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   .layout:after, ul.main-nav > li.mega-menu > ul.sub-menu > .sub-menu-wrap:after {
     content: "";
     display: table;
@@ -1872,7 +1872,7 @@ body {
       background-color: #e5e5e5; }
     /* line 94, sass/layout/_main.scss */
     .primary ul.projects-list li.project-link:hover {
-      background-color: #d8d8d8; }
+      background-color: #d9d9d9; }
     /* line 97, sass/layout/_main.scss */
     .primary ul.projects-list li:last-child {
       border-bottom: 1px solid #E6E7E7; }
@@ -2495,7 +2495,7 @@ footer.site-footer, .site-footer {
 /* line 23, sass/layout/_footer.scss */
 .products-area {
   border-top: 3px solid #FF585B;
-  background: url('../images/background/pattern15.jpg?1465969020') center center no-repeat, #333336;
+  background: url('../images/background/pattern15.jpg?1466338407') center center no-repeat, #333336;
   background-size: cover;
   padding-top: 25px; }
   /* line 28, sass/layout/_footer.scss */
@@ -2845,6 +2845,23 @@ ul.products .product.type-product {
   /* line 151, sass/modules/_others.scss */
   ul.products .product.type-product a.button.product_type_simple {
     display: none; }
+
+/* line 157, sass/modules/_others.scss */
+.vc_btn3-color-juicy-pink {
+  display: none !important; }
+
+/* line 160, sass/modules/_others.scss */
+.vc_gitem-post-data-source-post_title,
+.vc_gitem-post-data-source-post_excerpt {
+  text-align: center !important;
+  margin: 0px; }
+  /* line 164, sass/modules/_others.scss */
+  .vc_gitem-post-data-source-post_title h4, .vc_gitem-post-data-source-post_title h3, .vc_gitem-post-data-source-post_title p,
+  .vc_gitem-post-data-source-post_excerpt h4,
+  .vc_gitem-post-data-source-post_excerpt h3,
+  .vc_gitem-post-data-source-post_excerpt p {
+    margin: 5px;
+    text-align: center !important; }
 
 /* line 1, sass/modules/_pagination.scss */
 nav.pagination {
