@@ -130,7 +130,7 @@
 				        			               'after' => '',                                  // after the menu
 				        			               'link_before' => '',                            // before each link
 				        			               'link_after' => '',                             // after each link
-				        			               'depth' => 2,                                   // limit the depth of the nav
+				        			               'depth' => 5,                                   // limit the depth of the nav
 				    					        'fallback_cb'     => '',
 				    					         
 				    					                                    // fallback function (if there is one)
@@ -149,7 +149,7 @@
         			               'after' => '',                                  // after the menu
         			               'link_before' => '',                            // before each link
         			               'link_after' => '',                             // after each link
-        			               'depth' => 3,                                   // limit the depth of the nav
+        			               'depth' => 5,                                   // limit the depth of the nav
     					         'fallback_cb' => ''                             // fallback function (if there is one)
 						)); ?>
 
