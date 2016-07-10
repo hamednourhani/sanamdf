@@ -7,7 +7,7 @@
 			
 		</div><!-- banner-wrapper -->
 		
-		<div class="site-content without-sidebar">
+		<div class="site-content ">
 			<section class="layout">
 				
 				<div class="primary">
@@ -34,15 +34,18 @@
 								</main>
 							</article>
 						<?php } ?>
-					<?php } ?>	
+					<?php } ?>
 
-							
+					<nav class="pagination">
+						<?php itstar_pagination(); ?>
+					</nav>
 
 				</div><!-- primary -->
 
-				<nav class="pagination">
-						<?php itstar_pagination(); ?>
-					</nav>	
+				<div class="secondary">
+					<?php get_sidebar(); ?>
+				</div><!-- secondary -->
+
 
 			</section>
 		</div>

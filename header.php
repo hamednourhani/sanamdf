@@ -143,7 +143,7 @@
     					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
     					         'menu' => __( 'Main Menu', 'itstar' ),  // nav name
     					         'menu_class' => 'nav main-nav cf', 
-    					         'walker' => $walker,             // adding custom nav class
+//    					         'walker' => $walker,             // adding custom nav class
     					         'theme_location' => 'main-menu',                 // where it's located in the theme
     					         'before' => '',                                 // before the menu
         			               'after' => '',                                  // after the menu
